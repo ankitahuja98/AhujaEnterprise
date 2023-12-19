@@ -1,0 +1,380 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* navbar starts */
+
+.nav_title {
+  width: 15rem;
+  /* position: absolute;
+  left: 2%;
+  top: 18%; */
+  text-align: center;
+  font-size: x-large !important;
+  font-weight: bolder !important;
+  font-style: italic !important;
+  font-family: Dhurjati;
+  /* color: rgba(223, 214, 214, 0.295) !important; */
+  /* background-image: url(./Images/navtitle5.jpeg) !important;
+  color: transparent !important;
+  background-size: cover !important;
+  /* this below 2 commands for text mai image insert krne ke lie */
+  /* -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+}
+
+.nav_title:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
+  text-decoration: underline;
+}
+
+ul li .a {
+  color: #c6c1c1d1 !important;
+}
+
+ul li .a:hover {
+  text-decoration: underline;
+}
+
+ul li .active {
+  color: white !important;
+}
+/* navbar ends */
+
+/* Home section starts */
+.home_section {
+  height: 86vh;
+  /* background-color: wheat; */
+}
+.commondiv {
+  align-items: start;
+  text-align: start;
+}
+.home_section img {
+  width: 90% !important;
+  height: 90% !important;
+}
+
+.homediv_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 0px;
+  width: 7rem !important;
+  box-shadow: 1px 1px 6px black;
+  background-color: #101073;
+  color: white;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.homediv_btn:hover {
+  transform: scale(1.05);
+  transition: 0.5s all ease-in-out;
+}
+
+.home_heading {
+  font-family: Kanit !important;
+  font-size: 260%;
+  font-weight: bold;
+}
+
+.home_para {
+  font-family: Caveat !important;
+  text-align: justify;
+  font-weight: 500;
+}
+
+/* Home section ends */
+
+/* about page starts */
+.about_firstsection {
+  /* background-color: wheat; */
+  height: 12rem !important;
+  /* background-color: wheat; */
+}
+
+.about_firstsection h4,
+h1 {
+  font-family: Lobster;
+}
+.about_second_section {
+  /* background-color: pink; */
+  height: 30rem;
+  width: 100% !important;
+}
+.about_thirdsection {
+  padding-top: 5rem;
+  height: 57rem !important;
+  color: white;
+  background-image: url(../src/Images/aboutthirdsection.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_thirdsection h1 {
+  font-size: 3rem;
+}
+
+/* about page ends */
+
+/* card starts */
+.card-box {
+  box-shadow: 0px 0px 6px black;
+}
+
+.card-box p {
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card_skills {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+  background-color: rgba(177, 175, 175, 0.831) !important;
+  height: 42px !important;
+  width: 108px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-box tr {
+  padding-left: 12px;
+}
+
+.card_img {
+  width: 90% !important;
+  height: 166px !important;
+}
+/* card ends */
+
+/* contact us starts */
+.contact_section {
+  height: 40rem !important;
+  /* background-color: wheat; */
+}
+.contact_heading {
+  font-family: Rubik Lines !important;
+  font-weight: bolder !important;
+}
+.contact_section input {
+  height: 2rem;
+}
+.contact_section label {
+  font-weight: 700;
+}
+.sevent_section_form {
+  width: 50% !important;
+}
+.contactSubmitBtn {
+  font-size: larger !important;
+  font-weight: 500 !important;
+}
+.contact_hr {
+  width: 35% !important;
+}
+/* contact us ends */
+
+@media (max-width: 1335px) {
+  .about_firstsection {
+    height: 15rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home_section {
+    height: 51rem;
+  }
+  .page_img {
+    margin-top: 3rem !important;
+  }
+  .commondiv {
+    align-items: center;
+    text-align: center;
+  }
+  .sevent_section_form {
+    width: 75% !important;
+  }
+  .about_second_section {
+    height: 44rem;
+  }
+  .about_secondsection_img {
+    width: 70% !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .first_section {
+    height: 40rem;
+  }
+  .nav_title {
+    position: relative;
+    top: 14px;
+  }
+  .navbar-toggler {
+    position: relative;
+    bottom: 25px;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("./Images/hamburger.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    filter: invert(100%);
+  }
+}
+
+@media (max-width: 992px) {
+  .home_section {
+    height: 42rem;
+  }
+  .about_second_section {
+    height: 39rem;
+  }
+}
+@media (max-width: 767px) {
+  .contact_section {
+    height: 45rem !important;
+  }
+}
+@media (max-width: 686px) {
+  .about_thirdsection {
+    height: 43rem !important;
+  }
+  .about_thirdsection h4 {
+    font-size: medium !important;
+  }
+  .about_thirdsection_div {
+    height: 38rem !important;
+  }
+}
+
+@media (max-width: 527px) {
+  .about_firstsection h1 {
+    font-size: x-large !important;
+  }
+}
+@media (max-width: 500px) {
+  .home_section {
+    height: 32rem;
+  }
+  .home_heading {
+    font-family: Kanit !important;
+    font-size: 200%;
+    font-weight: bold;
+  }
+  .sevent_section_form {
+    width: 90% !important;
+  }
+  .about_second_section {
+    height: 35rem;
+  }
+  .about_thirdsection h1 {
+    height: 44rem !important;
+  }
+  .about_thirdsection h4 {
+    position: relative;
+    bottom: 42rem !important;
+  }
+  .about_thirdsection {
+    height: 45rem !important;
+  }
+}
+
+@media (max-width: 461px) {
+  .about_thirdsection {
+    height: 50rem !important;
+  }
+}
+@media (max-width: 428px) {
+  .about_thirdsection {
+    height: 53rem !important;
+  }
+}
+@media (max-width: 339px) {
+  .about_thirdsection {
+    height: 57rem !important;
+  }
+}
+@media (max-width: 385px) {
+  .about_thirdsection h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 345px) {
+  .contact_section {
+    height: 47rem !important;
+  }
+  .about_thirdsection {
+    padding-top: 4rem;
+  }
+}
+@media (max-width: 324px) {
+  .about_firstsection h1 {
+    font-size: large !important;
+  }
+  .about_firstsection {
+    height: 14rem;
+  }
+}
+@media (max-width: 305px) {
+  .about_thirdsection {
+    height: 60rem !important;
+  }
+}
