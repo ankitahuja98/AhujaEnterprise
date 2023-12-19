@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AhujaEnterprise/static/css/main.928e746c.css",
-    "main.js": "/AhujaEnterprise/static/js/main.182ed952.js",
+    "main.js": "/AhujaEnterprise/static/js/main.5fcf11d5.js",
     "static/js/787.1e6a6ca1.chunk.js": "/AhujaEnterprise/static/js/787.1e6a6ca1.chunk.js",
     "static/media/home_img.gif": "/AhujaEnterprise/static/media/home_img.aa886e613e4f3d0ebfd6.gif",
     "static/media/aboutthirdsection.jpg": "/AhujaEnterprise/static/media/aboutthirdsection.4ce08618a2ef3480a949.jpg",
@@ -11,11 +11,11 @@
     "static/media/backend.jpeg": "/AhujaEnterprise/static/media/backend.2d51bbf12787a501512e.jpeg",
     "index.html": "/AhujaEnterprise/index.html",
     "main.928e746c.css.map": "/AhujaEnterprise/static/css/main.928e746c.css.map",
-    "main.182ed952.js.map": "/AhujaEnterprise/static/js/main.182ed952.js.map",
+    "main.5fcf11d5.js.map": "/AhujaEnterprise/static/js/main.5fcf11d5.js.map",
     "787.1e6a6ca1.chunk.js.map": "/AhujaEnterprise/static/js/787.1e6a6ca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.928e746c.css",
-    "static/js/main.182ed952.js"
+    "static/js/main.5fcf11d5.js"
   ]
 }
