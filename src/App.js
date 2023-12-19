@@ -12,12 +12,12 @@ import ServiceFrontend from "./Components/ServiceFrontend.js";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/AhujaEnterprise">
       <Navbar />
       <Routes>
         <Route exact='true' path="/services" element={<Services />}></Route>
         <Route exact='true' path="/contact" element={<Contact />}></Route>
-        <Route exact='true' path="/" element={<Home />}></Route>
+        <Route exact='true' path="/AhujaEnterprise" element={<Home />}></Route>
         <Route exact='true' path="/about" element={<About />}></Route>
         <Route path="*" element={<Home />}></Route>
         <Route exact='true' path="/services/frontend" element={<ServiceFrontend />}></Route>
